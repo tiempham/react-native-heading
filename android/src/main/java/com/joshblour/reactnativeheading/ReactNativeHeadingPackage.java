@@ -24,7 +24,7 @@ public class ReactNativeHeadingPackage implements ReactPackage {
         modules.add(new ReactNativeHeadingModule(reactContext));
         return modules;    }
 
-    @Override
+    // Deprecated RN 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
